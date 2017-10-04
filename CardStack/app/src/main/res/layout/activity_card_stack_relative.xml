@@ -33,30 +33,30 @@
         android:layout_centerHorizontal="true" />
 
     <TextView
-        android:id="@+id/topRightTv"
+        android:id="@+id/topLeftTv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="19dp"
         android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/topLeftImg"
+        android:layout_marginStart="19dp"
         android:fontFamily="casual"
         android:text="A"
         android:textColor="@android:color/holo_red_dark"
         android:textSize="35sp"
-        android:textStyle="bold"
-        android:layout_alignStart="@+id/topLeftImg" />
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/btmRightTv"
-        android:layout_marginEnd="19dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:scaleY="-1"
-        android:fontFamily="casual"
-        android:text="A"
-        android:textSize="35sp"
-        android:textStyle="bold"
-        android:textColor="@android:color/holo_red_dark"
-        android:layout_alignTop="@+id/btmRightImg"
         android:layout_alignEnd="@+id/btmRightImg"
-        android:layout_marginTop="76dp" />
+        android:layout_alignTop="@+id/btmRightImg"
+        android:layout_marginEnd="19dp"
+        android:layout_marginTop="76dp"
+        android:fontFamily="casual"
+        android:scaleY="-1"
+        android:text="A"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="35sp"
+        android:textStyle="bold" />
 </RelativeLayout>

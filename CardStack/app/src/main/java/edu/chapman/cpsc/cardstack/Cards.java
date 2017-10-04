@@ -5,10 +5,10 @@ package edu.chapman.cpsc.cardstack;
  */
 
 public class Cards {
-    private String cardValue;
+    private int cardValue;
     private Suite cardSuite;
 
-    public Cards (String theCard, Suite theSuite){
+    public Cards (Suite theSuite, int theCard){
         cardValue = theCard;
         cardSuite = theSuite;
     }
@@ -17,7 +17,7 @@ public class Cards {
         return cardSuite;
     }
 
-    public String getCard(){
+    public int getCard(){
         return cardValue;
     }
 }
